@@ -1,0 +1,38 @@
+
+body {
+    background-color: #f8f9fa; 
+}
+
+
+.container {
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+}
+
+
+h2 {
+    color: #6f42c1; 
+}
+
+
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #5a31a1; 
+    border-color: #5a31a1;
+}
+
+
+label {
+    color: #343a40;
+}
+
+
+.form-control {
+    border-radius: 4px; 
+}

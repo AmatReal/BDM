@@ -1,0 +1,47 @@
+
+:root {
+    --color-principal: #6f42c1;
+    --color-fondo: #ffffff;
+    --color-texto: #333333;
+    --color-boton-morado: #6f42c1;
+}
+
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+
+.navbar {
+    background-color: var(--color-principal);
+}
+
+
+.btn-morado {
+    background-color: var(--color-boton-morado);
+    border-color: var(--color-boton-morado);
+    color: #ffffff;
+}
+
+.btn-morado:hover {
+    background-color: #5d36a6;
+    border-color: #5d36a6;
+}
+
+
+.form-control, .form-control-file {
+    border-color: var(--color-principal);
+}
+
+.form-control:focus, .form-control-file:focus {
+    border-color: var(--color-principal);
+    box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
+}
+
+
+#categorias {
+    position: relative;
+    z-index: 1;
+}
+

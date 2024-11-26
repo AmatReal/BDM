@@ -1,0 +1,77 @@
+.course-info-sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-info-sidebar h5 {
+    margin-top: 20px;
+    color: #6f4caf;
+}
+
+.course-info-sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.course-info-sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.course-info-sidebar ul li i {
+    margin-right: 10px;
+    color: #6f4caf;
+}
+
+
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #e22dca;
+}
+
+.rating .num-reviews {
+    margin-left: 10px;
+    color: #555;
+}
+
+
+.comment {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comment .username {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment .message {
+    color: #333;
+}
+
+
+.nav-tabs .nav-link {
+    color: #6f4caf; 
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: #6f4caf; 
+}
+
+
+.presentation-video {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 720px;
+    height: 405px;
+    background-color: #000;
+}
+
