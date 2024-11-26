@@ -6,6 +6,7 @@ function ejecutarStoredProcedure($opcion, $params) {
     global $conn;
 
     try {
+        
         // Preparar la llamada al procedimiento almacenado
         $sql = "CALL UsuarioElimModAdd(:ID_UserSP, :CorreoSP, :UsuarioSP, :NombreSP, :ApellidosSP, :ContraseñaSP, :RolSP, :GeneroSP, :FechaNacimientoSP, :UsuarioInstructorSP, :FotoSP, :Opcion)";
         $stmt = $conn->prepare($sql);
